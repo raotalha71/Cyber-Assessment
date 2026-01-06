@@ -1,0 +1,64 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          157.240.227.174
++ Target Hostname:    www.instagram.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject: /C=US/ST=California/L=Menlo Park/O=Meta Platforms, Inc./CN=*.instagram.com
+                   Ciphers: TLS_CHACHA20_POLY1305_SHA256
+                   Issuer:  /C=US/O=DigiCert Inc/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
++ Start Time:         2026-01-05 23:09:24 (GMT5)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ Uncommon header 'accept-ch' found, with contents: viewport-width,dpr,Sec-CH-Prefers-Color-Scheme,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Platform-Version,Sec-CH-UA-Model
++ Uncommon header 'reporting-endpoints' found, with contents: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", default="https://www.instagram.com/error/ig_web_error_reports/?device_level=unknown&brsid=7591941238314493586&comet_app_key=7&cpp=C3&cv=1031625964&st=1767636565591", permissions_policy="https://www.instagram.com/error/ig_web_error_reports/"
++ Uncommon header 'content-security-policy' found, with contents: default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-yedeUHkA' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;
++ Uncommon header 'permissions-policy' found, with contents: accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to="permissions_policy"
++ Uncommon header 'strict-transport-security' found, with contents: max-age=31536000; preload; includeSubDomains
++ Uncommon header 'origin-trial' found, with contents: ArDvqjFKr1fHThlSM8Kkp74sxlOCFTeqYJMXCGqCG/VJmcYlO/0UavmpqPDit2KppDf1THInNpwA36GmtgPOug8AAAB2eyJvcmlnaW4iOiJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tOjQ0MyIsImZlYXR1cmUiOiJDcmFzaFJlcG9ydGluZ1N0b3JhZ2VBUEkiLCJleHBpcnkiOjE3NzY3Mjk2MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==
++ Uncommon header 'x-stack' found, with contents: www
++ Uncommon header 'cross-origin-opener-policy' found, with contents: same-origin-allow-popups;report-to="coop_report"
++ Uncommon header 'x-xss-protection' found, with contents: 0
++ Uncommon header 'x-content-type-options' found, with contents: nosniff
++ Uncommon header 'origin-agent-cluster' found, with contents: ?1
++ Uncommon header 'alt-svc' found, with contents: h3=":443"; ma=86400
++ Uncommon header 'document-policy' found, with contents: include-js-call-stacks-in-crash-reports
++ Uncommon header 'accept-ch-lifetime' found, with contents: 4838400
++ Uncommon header 'x-fb-debug' found, with contents: ip7PA4lHGvWfRfKqWJ6R8I18GI91iZY3snpvC1leamRkm/AAaRb9KqYRxse2mIi+C7RzZyx1qjn8vnVMAA5q5Q==
++ Uncommon header 'report-to' found, with contents: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.instagram.com\/error\/ig_web_error_reports\/?device_level=unknown&brsid=7591941238314493586&comet_app_key=7&cpp=C3&cv=1031625964&st=1767636565591"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.instagram.com\/error\/ig_web_error_reports\/"}],"group":"permissions_policy"}
++ Uncommon header 'cross-origin-resource-policy' found, with contents: same-origin
++ Uncommon header 'content-security-policy-report-only' found, with contents: default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-yedeUHkA' blob: 'self' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com 'report-sample';style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;report-uri https://www.facebook.com/csp/reporting/?minimize=0;
++ Uncommon header 'x-frame-options' found, with contents: DENY
++ Uncommon header 'x-fb-connection-quality' found, with contents: EXCELLENT; q=0.9, rtt=43, rtx=0, c=14, mss=1380, tbw=3384, tp=-1, tpl=-1, uplat=230, ullat=0
++ Cookie csrftoken created without the httponly flag
++ Uncommon header 'cross-origin-embedder-policy-report-only' found, with contents: require-corp;report-to="coep_report"
++ All CGI directories 'found', use '-C none' to test none
++ Uncommon header 'edge-control' found, with contents: max-age=86400
++ File/dir '/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ Uncommon header 'proxy-status' found, with contents: http_request_error; e_fb_vipaddr="AcMsSj1i8PF-6lJ4ggUX_BiU_7_9RLTemWcTYbdB8M6_kQs5rosEp5tAN4zk_ezqi3IjAZcUVx09pRO9xRTFX1Mb572IapK-jnKWjkLB"; e_clientaddr="AcP8rNhZYjP2KBqUWAniZOE373SCFRHPP8DvTCtKj7pSdJUiFz_Kh8tp5yUCL8n4WBDDXfhzaqeDzLduuV2o5-XVnjQsJyNz3cWMv8TxGLJ8zDwgIQ"; e_upip="AcPfgx36n8KfM3y_v-9MATJMK_ubF-R-Re9HuQbeNb9J5aKN5Hd8FLXdZu0aW2sUmu_nYXtrGfjC-pKorb7yB2A3UNVzhN5Pkq5RQv3GMNU"; e_fb_zone="AcPiq3BXKItmCK8bkG710rcT3p3FwEIy6JTdi1gU0G4Vb69VFRRSdSpo15E4zfyb"; e_fb_twtaskhandle="AcPAapLaI7UE4KG47Yxsomf29ONkYZzmiG6vvJOFDuBwjwhcOwioqmUEQu0lQRRZTJJRJPQqvLyqdsKYOJGoWgcf7t4d3wnLy3DYunBoHw4"; e_proxy="AcM13kj7BNZEEJTnx78RXawiirwMbXsa-Ow10gR1o7VokIoXgKEaEWamffwZ9SSsT6W_ZM4rvxF-HJH1_0s", http_request_error; e_fb_vipaddr="AcNGVgkb6ir75wzVJ7X0wFP_CssURP45burcqUvR_lS_Sch8TVmISsT2YgQFb7q_iYeWWMmfmmva"; e_clientaddr="AcNyNuFu7ieHR-IZ8wOpyIxM16GyxqqNjJd-EwBiSZ74aealixElEfwmF6HI8pTgJKpMrg1tFjlZbvh8"; e_upip="AcPJBgf9Y2U-lEkUBho81ftN8GY3RVyC2HDJo_Qhw9ESUTpkvctgpvTf84R4FGhUUMzZCxrEGp9jbMauylyOWyI6BZf1VEe3gGTlunrD"; e_fb_zone="AcMwnbaBraVD1olFmr5qTCCSvEVsyVWbwYXera_mhU-he2QK4C8RnD5vfq9f4w"; e_fb_twtaskhandle="AcPvU1tZX-vPczqhLE8l9yFvhefZzvgjhvaOe_KgYCyVzr9nlAT2Zq99ifEm7M9J4SuhqOsLxpZ39SZhh1s8TTJECC5D-iEJUuA"; e_proxy="AcPM8U5HpPnkOPDg562FyFHkeVIJWZfo8_upxM40A-Y3IYV51Tpp6aRCgRWBfmJDEP24oFdDMXTnk9I"
++ File/dir '/accounts/login/*?next=/' in robots.txt returned a non-forbidden or redirect HTTP code (404)
++ File/dir '/ajax/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ Uncommon header 'x-ig-push-state' found, with contents: c2
++ Uncommon header 'x-perf-stats' found, with contents: 13108350;11402;23880
++ Uncommon header 'x-aed' found, with contents: 700
++ Uncommon header 'x-robots-tag' found, with contents: noindex
++ Uncommon header 'x-ig-request-elapsed-time-ms' found, with contents: 24
++ Uncommon header 'x-ig-peak-time' found, with contents: 1
++ Uncommon header 'x-ig-peak-v2' found, with contents: 1
++ Uncommon header 'x-ig-origin-region' found, with contents: ldc
++ Uncommon header 'x-ig-cache-control' found, with contents: no-cache
++ Uncommon header 'x-ig-capacity-level' found, with contents: 2
++ Cookie ig_did created without the secure flag
++ Cookie ig_did created without the httponly flag
++ Cookie ig_nrcb created without the secure flag
++ Cookie ig_nrcb created without the httponly flag
++ File/dir '/client_error/' in robots.txt returned a non-forbidden or redirect HTTP code (405)
++ File/dir '/direct/' in robots.txt returned a non-forbidden or redirect HTTP code (302)
++ File/dir '/logging/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ File/dir '/publicapi/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ File/dir '/qp/batch_fetch_web/' in robots.txt returned a non-forbidden or redirect HTTP code (405)
++ File/dir '/query/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ File/dir '/*/c/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ File/dir '/*/comments/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ File/dir '/*/liked_by/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ "robots.txt" contains 173 entries which should be manually viewed.

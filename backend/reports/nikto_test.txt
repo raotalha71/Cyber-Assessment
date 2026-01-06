@@ -1,0 +1,4 @@
+- Nikto v2.5.0/
++ Target Host: example.com
++ Target Port: 80
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 

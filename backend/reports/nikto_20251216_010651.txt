@@ -1,0 +1,4 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ ERROR: Cannot resolve hostname 'testphp.vulnweb.com'
++ 0 host(s) tested

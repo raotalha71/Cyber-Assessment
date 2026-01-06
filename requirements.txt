@@ -1,0 +1,16 @@
+# Backend dependencies
+Flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+reportlab==4.2.2
+requests==2.32.3
+PyJWT==2.9.0
+pyotp==2.9.0
+qrcode==7.4.2
+
+# ML dependencies
+scikit-learn>=1.5.2
+joblib==1.4.2
+
+# UI dependencies
+streamlit==1.40.0

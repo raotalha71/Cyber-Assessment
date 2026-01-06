@@ -1,0 +1,5 @@
+Nikto (MOCK) Scan Report
+Target: https://www.toptal.com/cybersecurity/10-most-common-web-security-vulnerabilities
+Vulnerabilities found:
+- Missing Security Headers | Medium
+- Outdated Server Version | High

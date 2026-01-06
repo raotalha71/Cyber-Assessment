@@ -1,0 +1,5 @@
+Nikto (MOCK) Scan Report
+Target: http://testphp.vulnweb.com
+Vulnerabilities found:
+- Missing Security Headers | Medium
+- Outdated Server Version | High
