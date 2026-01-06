@@ -648,10 +648,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**Your Name**  
-📧 Email: your.email@example.com  
-🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-🐙 GitHub: [Your GitHub](https://github.com/yourusername)
+**Muhammad Talha Kausar**  
+📧 Email: raotalha1071@gmail.com 
+🔗 LinkedIn:(https://www.linkedin.com/in/muhammad-talha-kausar-6b1503293/)  
+🐙 GitHub: (https://github.com/raotalha71/)
 
 ---
 
